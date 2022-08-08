@@ -5,13 +5,7 @@ local Window = Library:Create("Showcase","Fencing")
 local Main = Window:Tab("Tab 1",true)
 
 
-if game.placeid == 2753915549 then
-        world1 = true
-    elseif game.placeid == 4442272183 then
-        world2 = true
-    elseif game.placeid == 7449423635 then
-        world3 = true
-    end
+
     
     function checkquest() 
         mylevel = game:getservice("players").localplayer.data.level.value
